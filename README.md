@@ -107,7 +107,8 @@ Considerando os mecanismos de segurança discutidos, analise como a implementaç
 
 **Dica:** Pense em como esses mecanismos são aplicados em sistemas operacionais que você utiliza no dia a dia, como Windows, Linux ou macOS.
 
-**Copilot informa**: Essa questão incentiva os alunos a refletirem sobre o equilíbrio entre segurança, performance e usabilidade, aplicando conceitos teóricos a contextos práticos.
+**Resposta:**
+O controle de acesso desempenha o papel de gerenciar as solicitações de acesso dos usuários à determinados arquivos. Boa parte dos recursos de um SO possuem esse controle, e ele é extremamente benéfico para questoes como segurança e criptografia. Disso, são criadas as ''regras'', que podem ser direcionadas para identidades (como objetos;sujeitos) ou atributos (cor, ano, gênero, etc.) Essa política dita como os sujeitos terão acesso aos objetos do sistema. Um bom exemplo disso é o Discretionary Access Control (DAC), que é o controle de acesso padrão no Linux, por exemplo. Nele, arquivos e diretórios possuem um dono, um grupo e permissão para outros. As permissões são definidas como leitura (r), escrita (w) e execução (x). Esse modelo permite fácil configuração, podendo ser feita até por usuários ''comuns'', fazendo o uso de comandos simples como chown, chmod e ls, o que torna o processo bem simples. No entanto, é importante ter extrema cautela com algumas permissões como ''chmod 777''.
 
 
 # Questão 4. Custo de Processamento versus Algoritmo Ótimo de Escalonamento
@@ -138,7 +139,13 @@ Considerando os conceitos de custo de processamento e algoritmo ótimo de escalo
 
 **Dica:** Pense em como esses algoritmos são aplicados em diferentes cenários, como sistemas de tempo real, servidores web e sistemas operacionais de uso geral.
 
-**Copilot informa**: Essa questão incentiva os alunos a refletirem sobre a complexidade e os trade-offs envolvidos na escolha de um algoritmo de escalonamento, aplicando conceitos teóricos a contextos práticos.
+**Resposta:**
+   - **First-Come, First Served (FCFS)**
+   - Vantagens: realiza o escalonamento das tarefas em sequência numa fila. Tem simples implementação e é simples no geral.
+   - Desvantagens: pouco eficiente em performance, o tempo de espera pode ser muito alto.
+   - **Round Robin (RR)**
+   - Vantagens: o escalonamento é feito por revezamento. Implementação simples. Todos os processos possuem o mesmo tempo (fatias) na fila para serem executados.
+   - Desvantagens: o tempo de espera para processos curtos pode ser maior, deixando o sistema lento.
 
 # Questão 5. Aplicativo em python vs aplicativos em c
 
