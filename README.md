@@ -5,6 +5,7 @@
 - **Público alvo**: alunos da disciplina de SO (Sistemas Operacionais) do curso de TADS (Superior em Tecnologia em Análise e Desenvolvimento de Sistemas) no CNAT-IFRN (Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Natal-Central).
 - disciplina: **SO** Sistemas Operacionais
 - professor: [Leonardo A. Minora](https://github.com/leonardo-minora)
+- aluna: Giovanna Moura - matrícula 20232014040013
 
 ## Avaliação
 - **Lembre de fazer o fork deste repositório**
@@ -21,7 +22,12 @@ Considere as funções e objetivos principais de um sistema operacional conforme
 
 **Dica**: Pense em exemplos práticos de como o sistema operacional realiza essas tarefas no dia a dia de um usuário.
 
-**Copilot informa**: Essa questão incentiva os alunos a explorarem os conceitos fundamentais e a aplicarem o conhecimento teórico em situações práticas. Se precisar de mais alguma coisa, estou aqui para ajudar!
+**Resposta**:
+O sistema operacional atua fazendo a "comunicação" entre o hardware do computador e o software, oferecendo uma interface amigável para usuário e realizando a gestão de recursos e tarefas. Ele incorpora aspectos tanto de nível baixo, como drivers, e nível alto, como a interface gráfica.
+- Gerenciamento de processos: essa gerência refere-se à capacidade do SO de distribuir os recursos do processador de forma equalitária entre as tarefas em execução, isso permite multitarefa em execução e evita deadlocks.
+- Gerenciamento de memória: o gerenciamento de memória visa designar à cada aplicação uma área de memória independente. Também é possível a criação de memória virtual para quando a memória RAM não estiver sendo o suficiente.
+- Gerenciamento de dispositivos de entrada e saída: isso se dá através da gerência de periféricos como mouses, teclados, etc. estabelecerem uma comunicação entre o hardware e o software. Isso se dá através de drivers.
+- Gerenciamento de arquivos: visa criar, armazenar e gerenciar arquivos e diretórios.
 
 # Questão 2. Estrutura de sistemas operacionais
 
@@ -68,8 +74,13 @@ Com base no texto sobre a estrutura de sistemas operacionais, analise como as di
 
 **Dica:** Utilize exemplos de sistemas operacionais reais que adotam essas arquiteturas para ilustrar sua análise.
 
-**Copilot informa**: Essa questão incentiva os alunos a considerarem tanto os aspectos econômicos quanto os de segurança ao avaliar diferentes arquiteturas de sistemas operacionais.
-
+**Resposta:**
+- Arquitetura monolítica:
+Apresenta alto desempenho e é de fácil implementação. Porém, pode apresentar problemas de robustez do sistema. A manutenção pode ser complexa e cara. Um exemplo de sistema operacional monolítico é o Linux.
+- Arquitetura microkernel:
+Possui um desenvolvimento custoso e complexo. Possui bastante modularidade e prevenção de falhas. Devido aos componentes serem isolados, sua manutenção é fácil e pode ser realizada sem atingir o núcleo. Um exemplo dessa conjuntura é o MasOS X.
+- Arquitetura em camadas:
+Camadas são criadas, resultando em modularidade e robustez. Cada camada se comunica com níveis diferentes do SO. Essa modularidade facilita a manutenção do sistema posteriomente. Apesar disso, possui difícil implementação, inicialmente. O isolamento das camadas provém maior segurança para o SO. Um sistema desse modelo é o MINIX 3.
 # Questão 3. Introdução à Segurança de Sistemas Operacionais
 
 ## Texto informativo
