@@ -159,4 +159,8 @@ Explique o caminho que as instruções seguem desde um aplicativo escrito em Pyt
 
 **Dica:** Compare e contraste os dois processos, destacando as principais diferenças e semelhanças na forma como as instruções são processadas e executadas.
 
-**Copilot informa**: Essa questão incentiva os alunos a refletirem sobre os diferentes caminhos que as instruções seguem em linguagens interpretadas e compiladas, aplicando conceitos teóricos a contextos práticos.
+**Resposta**:
+- O interpretador Python executa o código lendo-o linha por linha
+- Na compilação de programas em C, o compilador primeiramente lê o código para em seguida ''traduzi-lo'' para linguagem específica da máquina (binários)
+- Os drivers do dispositivo permitem que o SO se comunique com o hardware. O kernel atua gerenciando a memória, os processos e os dispositivos.
+- O código do Python é ''traduzido'' na hora, enquanto no C isso acontece antes da execução. Como C é convertido para o formato do computador (binários) imediatamente, ele tem um maior desempenho.
